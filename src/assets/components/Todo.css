@@ -1,0 +1,96 @@
+body{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.container {
+    background: rgb(134,134,134);
+background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(38,56,62,1) 100%);
+    
+    border-radius: 10px;
+    box-shadow:  4px 4px 10px rgba(0, 0, 0, 0.5);
+    width: 40%;
+
+    margin-top: 110px;
+    padding: 15px;
+    min-height: 300px;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+
+
+}
+
+.form-group {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 30px !important;
+    margin-left: 25px;
+    width: 80%;
+}
+
+.li {
+    margin-bottom: 45px;
+    margin-left: 2pxs;
+    
+    background-color: black;
+    color: white;
+    border: none !important;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.list-items{
+    display: flex;
+}
+
+.list-items .list-item-list{
+    flex:1;
+}
+
+.list-items .list-item-icons{
+    padding-left: 5px;
+    font-size: 30px;
+    /* padding-right: 10px; */
+}
+#complete{
+    color: rgb(34, 116, 34);
+}
+
+#edit{
+    color: rgb(106, 106, 210);
+}
+#delete{
+    color: rgb(163, 65, 65);
+}
+#special{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
