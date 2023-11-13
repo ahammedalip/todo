@@ -18,8 +18,11 @@ function Todo() {
   }
 
   const addTodo = () => {
-    if (todo !== '') {
-      setTodos([...todos, { list: todo, id: Date.now(), status: false }])
+
+    const trimmedTodo = todo.trim()
+
+    if (trimmedTodo !== '') {
+      setTodos([...todos, { list: trimmedTodo, id: Date.now(), status: false }])
       setTodo('')
       console.log(todos);
     }

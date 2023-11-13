@@ -55,7 +55,7 @@ button {
     width: 80%;
 }
 
-.li {
+/* .li {
     margin-bottom: 45px;
     margin-left: 2pxs;
     
@@ -65,10 +65,14 @@ button {
     list-style-type: none;
     border-radius: 5px;
     padding: 10px;
-}
+} */
 
 .list-items{
     display: flex;
+}
+
+.list-item-list{
+    color: white;
 }
 
 .list-items .list-item-list{
